@@ -19,9 +19,22 @@
 *::after {
   box-sizing: border-box;
 }
+
+/* Контейнер */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 ul {
   list-style: none;
-}  
+  margin: 0;
+  padding: 0;
+  
+ }  
 body {
   background-color: var(--white-text-color);
   color: var(--main-text-color);
@@ -29,15 +42,14 @@ body {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
+}
 
-  /* Контейнер */
-  .container {
-    margin-right: auto;
-    margin-left: auto;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+h1, h2, h3, h4  {
+  margin-top: 0;
+  margin-bottom: 0 ;
+.p {
+  margin: 0;
+}  
 
 }
 /* Заголовки */
@@ -70,14 +82,21 @@ body {
 /* Абзацы */
 .solution-text {
   line-height: 1.71;
+  margin: 0;
+  padding: 0;
+
 }
 .team-text {
   font-size: 16px;
   line-height: 1.19;
+  margin: 0;
+  padding: 0;
 }
 .portf-text {
   font-size: 16px;
   line-height: 1.88;
+  margin: 0;
+  padding: 0;
 }
 
 /* Хедер */
@@ -129,6 +148,7 @@ body {
 /* Блок герой */
 .hero {
   background: var(--footer-hero-color);
+  
 }
 .hero-title {
   color: var(--white-text-color);
@@ -138,6 +158,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase
+  
+
 }
 /* Кнопка блока герой */
 .button {
