@@ -201,6 +201,9 @@ header {
 .site-nav .link:active {
   color: var(--accent-text-color);
 }
+
+
+
 /* Страничка студия*/
 .site-contact {
   display: flex;
@@ -247,10 +250,18 @@ header {
  background-color: var(--white-text-color);
  padding-top: 30px;
  padding-bottom: 30px;
- 
- 
- 
+  
 }
+
+.link-current {
+  color: var(--accent-text-color);
+  }
+.link-current {
+  display: block;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}  
 /* Портфолио*/
 .portf-list {
   display: flex;
