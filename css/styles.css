@@ -138,6 +138,7 @@ img {
   
 }
 .team-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -201,8 +202,6 @@ header {
 .site-nav .link:active {
   color: var(--accent-text-color);
 }
-
-
 
 /* Страничка студия*/
 .site-contact {
