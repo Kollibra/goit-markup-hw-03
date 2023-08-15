@@ -1,0 +1,157 @@
+/* color
+iris - #4D5AE5; primary brand
+ocean -#404BBf; pressed
+navy blue -#2E2F42; dark
+green - #31D0AA;  success
+slate - #434455;  text
+ligth slate -#8E8F99;  subtle text
+cornflower - #E7E9FC;  accent
+cloud - #F4F4FD; light background
+navy blue modal - #2E2F42; modal overlay
+grey - #2E2F42; hero background               ?
+white - #FFFFFF; white background
+dairy - #FCFCFC; modal background
+
+*/
+
+
+
+body {
+    background-color: #ffffff;
+    color: #434455;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    
+}
+ul {
+    list-style-type: none;
+}
+
+/*Headlines*/
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+}
+h2 {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em
+}
+h3 {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em
+}
+p {
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/*Header*/
+/*Logo*/
+.link-logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4D5AE5;
+    line-height: 1.17;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.03em
+}
+.logo-header {
+    color: #2E2F42;
+}
+.logo-footer {
+    color: #F4F4FD;
+}
+.link {
+    text-decoration: none;
+    color: #2E2F42 ;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+
+}
+.link:hover {
+    color: #404BBf
+}
+.link:focus {
+    color: #404BBf
+}
+address {
+font-style: normal;
+
+}
+.link-contact{
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+
+}
+.link-contact:hover,
+.link-contact:focus {
+    color: #404bbf;
+}
+/*Hero*/
+.hero {
+    background-color: #2E2F42 ;
+}
+/*Button*/
+.button {
+    background-color: #4D5AE5 ;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    
+    
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+.button:hover {
+    background-color: #404BBf;
+}
+.button:focus {
+    background-color: #404BBf;
+}
+/*Our portfolio*/
+.title-portfolio {
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+/*Our team*/
+.our-team {
+    background-color: #F4F4FD;
+}
+.title-ourteam {
+    text-align: center;
+    text-transform: capitalize;
+}
+.list-ourteam {
+    background-color: #FFFFFF;
+}
+.text-team {
+    font-size: 16px;
+}
+/*Footer*/
+footer {
+    background-color: #2E2F42;
+}
+.footer-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em
+}
