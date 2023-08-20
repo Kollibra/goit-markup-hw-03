@@ -198,6 +198,16 @@ font-style: normal;
 .button:focus {
     background-color: #404BBf;
 }
+/* Our advantages */
+.ouradvant-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+
 /*Our portfolio*/
 .title-portfolio {
     text-align: center;
