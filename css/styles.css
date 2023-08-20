@@ -221,8 +221,15 @@ font-style: normal;
 .title-ourteam {
     text-align: center;
     text-transform: capitalize;
+    margin: 0 auto;
 }
 .list-ourteam {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    
+}
+.item-ourteam {
     background-color: #FFFFFF;
 }
 .text-team {
