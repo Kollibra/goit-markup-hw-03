@@ -177,8 +177,7 @@ font-style: normal;
     padding-top: 188px;
     padding-bottom: 48px;   
     max-width: 496px;
-    display: block;
-    min-width: 169px;
+    
 
 
 }
@@ -194,6 +193,8 @@ font-style: normal;
     border-radius: 4px;
     border: none;
     margin-bottom: 188px;
+    display: block;
+    min-width: 169px;
 }
 .button:hover {
     background-color: #404BBf;
