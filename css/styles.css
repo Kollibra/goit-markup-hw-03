@@ -164,6 +164,7 @@ font-style: normal;
 .hero {
     background-color: #2E2F42 ;
     text-align: center;
+    padding: 188px 0 188px;
 }
 .hero-title {
     color: #ffffff;
@@ -172,10 +173,12 @@ font-style: normal;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    width: 496px;
     margin: 0 auto;
     padding-top: 188px;
-    padding-bottom: 48px;
+    padding-bottom: 48px;   
+    max-width: 496px;
+    display: block;
+    min-width: 169px
 
 
 }
