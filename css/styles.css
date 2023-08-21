@@ -292,13 +292,14 @@ font-style: normal;
 /*Footer*/
 footer {
     background-color: #2E2F42;
+    padding: 100px 0 100px;
 }
 .footer-text {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em
 }
-.box-future {
-    margin-top: 100px;
-    margin-bottom: 100px;
+.link-footer {
+    display: inline-block;
+    margin-bottom: 16px;
 }
