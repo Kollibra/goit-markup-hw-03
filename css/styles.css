@@ -48,9 +48,9 @@ img {
 }
 
 .container { 
+   
     width: 1158px;
-    padding-left: 15;
-    padding-right: 15;
+    padding: 0 15px;
     margin-left: auto;
     margin-right:  auto;
 }
@@ -96,6 +96,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 /*Header*/
+.main-header {
+    border-bottom: 1px solid #e7e9fc;
+}
 /*Logo*/
 .link-logo {
     font-family: Raleway, sans-serif;
@@ -105,7 +108,8 @@ letter-spacing: 0.02em;
     line-height: 1.17;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 0.03em
+    letter-spacing: 0.03em;
+    margin-right: 76px;
 }
 .logo-header {
     color: #2E2F42;
@@ -118,7 +122,8 @@ letter-spacing: 0.02em;
     color: #2E2F42 ;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    padding: 24px 0;
 
 }
 .link:hover {
@@ -144,7 +149,7 @@ font-style: normal;
 }
 .site-nav {
     display: flex;
-   
+    align-items: center; 
 }
 .main-nav {
     display: flex;
