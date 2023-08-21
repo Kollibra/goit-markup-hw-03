@@ -202,6 +202,9 @@ font-style: normal;
     background-color: #404BBf;
 }
 /* Our advantages */
+.advantage-main {
+    padding: 120px 0 120px;
+}
 .ouradvant-list {
     display: flex;
     flex-direction: row;
@@ -209,7 +212,9 @@ font-style: normal;
     margin-top: 120px;
     margin-bottom: 120px;
 }
-
+.list-title {
+    margin-bottom: 8px;
+}
 
 /*Our portfolio*/
 
