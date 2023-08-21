@@ -48,7 +48,7 @@ img {
 }
 
 .container { 
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15;
     padding-right: 15;
     margin-left: auto;
