@@ -224,13 +224,14 @@ font-style: normal;
 /* Our advantages */
 .advantage-main {
     padding: 120px 0 120px;
+
 }
 .ouradvant-list {
     display: flex;
     flex-direction: row;
     gap: 24px;
-    margin-top: 120px;
-    margin-bottom: 120px;
+   
+    
 }
 .list-title {
     margin-bottom: 8px;
