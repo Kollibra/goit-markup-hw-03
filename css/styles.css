@@ -239,15 +239,22 @@ font-style: normal;
 /*Our portfolio*/
 
 .portfolio{
-    padding-top: 120px;
+    padding: 120px 0 120px 0;
 }
+.data-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 .title-portfolio {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 72px;
+    
+    margin-bottom: 8px;
 }
 .list-portfolio {
     display: flex;
