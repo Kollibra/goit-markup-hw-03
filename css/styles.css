@@ -253,7 +253,10 @@ font-style: normal;
     text-transform: capitalize;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 72px;
     
+}
+.titles-portfolio {
     margin-bottom: 8px;
 }
 .list-portfolio {
