@@ -195,7 +195,7 @@ font-style: normal;
     text-align: center;
     letter-spacing: 0.02em;
     margin: 0 auto;
-    padding-top: 188px;
+    
     padding-bottom: 48px;   
     max-width: 496px;
 
@@ -238,7 +238,9 @@ font-style: normal;
 .list-title {
     margin-bottom: 8px;
 }
-
+.ouradvant-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
 /*Our portfolio*/
 
 .portfolio{
